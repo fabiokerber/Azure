@@ -8,11 +8,41 @@ This is important because there is no risk of spend more than expected with clou
 
 ## Core Services
 - Virtual Machines
-- Virtual Networking
-- Storage
+- Virtual Networking (Connectivity, Security, Delivery, Monitoring)
+- Storage (Blobs, queues, tables, files - hot, cool and archive tiers)
+- Microservices (Servive Fabric, Functions, Logic Apps, API's, AKS)
+<br>
+<br>
 
+## Networking - Connectivity
+- Virtual Network (VNet)
+- Virtual WAN
+- ExpressRoute
+- VPN Gateway
+- Azure DNS
+- Peering (connects services from different regions)
+- Bastion (more secure than common RDP)
 
+## Networking - Security
+- Network Security Groups (NSG)
+- Azure Private Link
+- DDoS Protection
+- Azure Firewall
+- Web Application Firewall (WAF)
+- Virtual Network Endpoints
 
+## Networking - Delivery
+- CDN
+- Azure Front Door
+- Traffic Manager
+- Application Gateway
+- Load Balancer
+
+## Networking - Monitoring (Mostly Debug tools)
+- Network Watcher
+- ExpressRoute Monitor
+- Azure Monitor
+- VNet Terminal Access Point (TAP)
 
 ```
 az login
